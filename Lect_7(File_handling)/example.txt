@@ -1,0 +1,6 @@
+File handling in python is easy than file handling in javaAbc
+"r" mode is only use to read the file 
+"w" mode is use for writing 
+"x" mode create a new file and open it in the write mode
+"a" open the file into write mode and append the data at the end of the whole text
+"r+" open the file in read and write mode and appends the data at the end of the whole textAbc
