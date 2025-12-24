@@ -1,22 +1,33 @@
-# print("Hello");
+# print("Hello")
 
 # automatic type conversion is done in python 
-# a=2
-# b=3.44
-# sum= a+b
-# print(sum)
+a="Hello "
+b="Haresh"
+print("first ",a+b) # Hello Haresh
+print(a,b)
 
+
+# without type casting 
+# a= 3
+# b= "5"
+# sum = a+b
+# print(sum) # this will give error
 
 # type casting 
 # a= 3
 # b= "5"
 # sum = a+ int(b)
-# print(sum)
+# print(sum) this will not give error
 
 #  1 Write a Program to input 2 numbers & print their sum.
 
 # num1 = float(input("Enter 1st number:  "))
 # num2 = float(input("Enter 2nd number:  "))
+# sum_of_nums= num1+num2
+# print(sum_of_nums)
+
+# num1 = int(input("Enter 1st number:  "))
+# num2 = int(input("Enter 2nd number:  "))
 # sum_of_nums= num1+num2
 # print(sum_of_nums)
 
@@ -45,8 +56,8 @@
 # print(str[2:12])
 # print(str[:-5])
 
-str='this is Python course'
-# print("Number of occurance ",str.count("$"))
-# print(str.replace("is", "in"))
-# print(str.find("is"))
-print(str.endswith('ser'))
+# str='this is Python course'
+# # print("Number of occurance ",str.count("$"))
+# # print(str.replace("is", "in"))
+# # print(str.find("is"))
+# print(str.endswith('ser'))
