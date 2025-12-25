@@ -56,8 +56,8 @@ print(a,b)
 # print(str[2:12])
 # print(str[:-5])
 
-# str='this is Python course'
-# # print("Number of occurance ",str.count("$"))
-# # print(str.replace("is", "in"))
-# # print(str.find("is"))
-# print(str.endswith('ser'))
+str='this is Python course'
+print("Number of occurance ",str.count("$"))
+print(str.replace("is", "in"))
+print(str.find("is"))
+print(str.endswith('ser'))

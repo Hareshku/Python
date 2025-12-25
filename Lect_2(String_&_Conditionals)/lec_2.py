@@ -1,14 +1,14 @@
-# str= "Hello"
+str= "Hello"
 # str[0]="A"
-# print(str[0:])
+print(str[0:])
 
 # -ve indexing 
-# print(str[-1:])
+print(str[-1:])
 
 
 # Task 1 
-# name= input("Enter your name here:  ")
-# print(name, " ",len(name))
+name= input("Enter your name here:  ")
+print(name, " ",len(name))
 
 # task 2
 # marks= int(input("Enter your marks here :  "))
