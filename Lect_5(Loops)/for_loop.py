@@ -11,10 +11,16 @@
 #     break
 #   index+=1
 
-num= int(input("Enter the number to find the factorial :"))
-i=num
-for i in range(num, 0, -1):
+# num= int(input("Enter the number to find the factorial :"))
+# i=num
+# for i in range(num, 0, -1):
+#   print(i)
+
+
+ # Range function 
+#  range(20):
+#  range(1, 20):
+# range(1, 20, 2) two is the steps
+# range(20, 0, -1) to print in reverse order
+for i in range(10, 0, -1):
   print(i)
-
-
-  

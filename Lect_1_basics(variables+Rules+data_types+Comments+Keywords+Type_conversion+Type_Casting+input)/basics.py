@@ -61,3 +61,6 @@ print("Number of occurance ",str.count("$"))
 print(str.replace("is", "in"))
 print(str.find("is"))
 print(str.endswith('ser'))
+
+print(value, end = " ") # to print result in one line
+print(value, sep=",") # to separate result value with specific character like , - _ etc.
