@@ -1,15 +1,37 @@
-str= "Hello"
-# str[0]="A"
-print(str[0:])
+# What is String 
+# A string is a sequence of characters enclosed inside quotes.
 
-# -ve indexing 
-print(str[-1:])
+# single, double, triple quotes
+# s = "Hello"
+# s1= 'Hello'
+# s2 = """Hello"""
+
+# S3 = "I'm"
+# s4= '"Hello"'
+# s5= """this is used for paragraph
 
 
+# text"""
+# print(s,s1, s2, s4, S3,s5)
+
+# String can contain anything 
+# text = "Python 🐍"
+
+# To check Type of the variable: type()
+# a = 33343
+# b = "43434"
+
+# String python treats as sequence of individual characters 
+word = "Python"
+print(word[-1])
+# print(type(a))
+# print(type(b))
 # Task 1 
 name= input("Enter your name here:  ")
 print(name, " ",len(name))
-
+# message = "I'm learning Python"
+message = 'I\'m learning Python'
+print(message)
 # task 2
 # marks= int(input("Enter your marks here :  "))
 # if(marks>=91 and marks<=100):print("Grade - A+")
