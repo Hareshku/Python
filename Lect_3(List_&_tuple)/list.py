@@ -1,24 +1,37 @@
-# # marks= [94, 89, 87, 78, 60, 9, 23]
-# # marks[0]="list"
-# # marks[2]="type"
-# # marks.append("add-one")
-# # marks.sort()
-# # print(marks)
-# # marks.sort(reverse=True)
-# # print(marks)
-# # marks.reverse()
-
-# # marks.insert(2, 99)
-
-# # marks.remove(89)  removes the elements of list
+marks= [94, 89, 87, 78, 60, 9, 23, 40, 60]
+# marks[0]="list"
+# marks[2]="type"
+# marks.append("add-one")
+marks.sort()
+# remove(30)\
+# print(marks.pop(8))
+# marks.sort(reverse=True)
+# print(marks)
+# marks.reverse()
+# print(marks)
+# marks.insert(2, 99)
+# print(marks)
+# marks.remove(89)  #removes the elements of list
 
 # # print(marks.pop(3)) by defaul delete last element but if we want to delete a specific element then it takes index of the element
 
-# # print(marks)
-# # print(marks[-6:-1]) ending index is excluded
+
+# print(marks[-6:-1]) #ending index is excluded
 # # print(len(marks))
+# print(marks)
+# print(list(range(6)))
 
+# if 69 in marks:
+#     print("60 is present: ")
+# else: print("Not present")
 
+# find the index of a given value 
+# print(marks.index(60, 2))
+# print(marks.count(60))
+
+word = "programming"
+for char in word:
+    print(word.count(char))
 # # task 1
 # # WAP to ask the user to enter names of their 3 favorite movies & store them in a list
 
