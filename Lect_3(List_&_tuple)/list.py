@@ -30,8 +30,8 @@ marks.sort()
 # print(marks.count(60))
 
 word = "programming"
-for char in word:
-    print(word.count(char))
+for char in set(word):
+    print(char, word.count(char))
 # # task 1
 # # WAP to ask the user to enter names of their 3 favorite movies & store them in a list
 

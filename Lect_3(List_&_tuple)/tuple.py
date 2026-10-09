@@ -15,3 +15,22 @@
 # list1.sort()
 # print(grades.count("A"))
 # print(list1)
+
+data = ([1,2,3], 10)
+
+# data[0] = [4, 5]  x
+# data.append(5)   x
+data[0].append(4)
+print(data)
+
+a = (1, 3, 2)
+b = (2, 2, 3)
+
+print(a < b)
+
+a = [1, 2, 3]
+old_id = id(a)
+
+a.append(4)
+
+print(old_id == id(a))

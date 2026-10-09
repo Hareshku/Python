@@ -1,14 +1,11 @@
-# info={
-#   "name": "Haresh",
-#   "last_Name": "Kumar",
-#   "marks": [2,3,4,5,6],
+
+# info = {
+#     'name' : "Haresh",
+#     'age': 23,
+#     'marks': {'math': 2, 'eng': 4, 'java':5,'python':3}
 # }
 
-# marks=info['marks'][0]
-# print(info['name'],info['last_Name'], marks, info['marks'])
-# info['name']="Hareesh"
-# info['surname']="Meghwar"
-# print(info)
+# print(info['name'], info['age'], info['marks']['math'])
 
 # Nested dictionary 
 # student={
@@ -24,14 +21,14 @@
 # print(student["subj"]["Java"])
 
 
-# dictionary methods
+# # dictionary methods
 
 # print(student.keys())
 # print(list(student.keys()))
 # print(list(student.items()))
 # print("before")
-# print(student.get("sname"))
-# print(student["sname"])
+# print(student.get("name"))
+# print(student["name"])
 # print("After")
 
 # new_stu={"City": "Hyderabad", "Country": "Pakistan", "Province":"Sindh"}
