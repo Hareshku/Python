@@ -68,6 +68,16 @@
 #     i+=1
 #   print("Factorial of n = ",num," is =",fact)
 
+
+# Through Recursion 
+# def fact(n):
+#   if n==0 or n==1:
+#     return n
+  
+#   return n*fact(n-1)
+# print(fact(4))
+
+
 # factorial(num)
 # # Task 4:  WAF to convert USD to PKR.
 # usd= int(input("Enter USD to convert into pkr : "))

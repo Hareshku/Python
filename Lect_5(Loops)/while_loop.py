@@ -24,18 +24,22 @@
 #   i+=1
 
 # find the sum of first n numbers 
-# i=0
-# sum=0
-# num=int(input("Enter the number any number to find the sum: "))
+num= int(input("Enter the nth number: "))
+sum =0
+for i in range(1,num+1):
+  sum+=i
+print(sum)
+# i =1
 # while i<=num:
-#   sum=sum+i
+#   sum+=i
 #   i+=1
+
 # print(sum)
 
-i=1
-factorial=1
-num=int(input("Enter the number any number to find the factorial: "))
-while i<=num:
-  factorial=factorial*i
-  i+=1
-print(factorial)
+# i=1
+# factorial=1
+# num=int(input("Enter the number any number to find the factorial: "))
+# while i<=num:
+#   factorial=factorial*i
+#   i+=1
+# print(factorial)
