@@ -41,14 +41,14 @@
 
 # 3 WAP to input 2 int numbers, a and b. 
 # Print True if a is greater than or equal to b. If not print False.
-a = int(input("Enter num1: "))
-b = int(input("Enter num2: "))
+# a = int(input("Enter num1: "))
+# b = int(input("Enter num2: "))
 
-if a>b:
-    print("True")
+# if a>b:
+#     print("True")
 
-else:
-    print("False")
+# else:
+#     print("False")
 
 
 # str1= "Hello"

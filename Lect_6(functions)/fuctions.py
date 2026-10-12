@@ -103,9 +103,9 @@
 # Recursion
 # function call itself
 
-def Show(n):
-  if(n==0):
-    return
-  print(n)
-  Show(n-1)
-Show(5)
+# def Show(n):
+#   if(n==0):
+#     return
+#   print(n)
+#   Show(n-1)
+# Show(5)

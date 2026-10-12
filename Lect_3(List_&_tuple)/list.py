@@ -29,6 +29,7 @@ marks.sort()
 # print(marks.index(60, 2))
 # print(marks.count(60))
 
+# Find the frequency of characters 
 word = "programming"
 for char in set(word):
     print(char, word.count(char))
